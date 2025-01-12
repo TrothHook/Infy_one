@@ -3,6 +3,7 @@
         "appendonly",
         "helloms",
         "redisinsight",
-        "redislabs"
+        "redislabs",
+        "wishesms"
     ]
 }

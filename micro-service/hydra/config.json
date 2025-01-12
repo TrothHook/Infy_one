@@ -1,14 +1,12 @@
 {
-    "hydra": {
-        "serviceName": "helloms",
-        "serviceIP": "127.0.0.1",
-        "servicePort": "8181",
-        "serviceType": "http",
-        "serviceDescription": "A sample hello world microservice",
-        "redis": {
-            "url": "redis://127.0.0.1:6379/15"
-            
-        }
-        
+  "hydra": {
+    "serviceName": "helloms",
+    "serviceIP": "127.0.0.1",
+    "servicePort": 0,
+    "serviceType": "http",
+    "serviceDescription": "A sample hello world microservice",
+    "redis": {
+      "url": "redis://127.0.0.1:6379/15"
     }
+  }
 }
